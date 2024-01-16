@@ -59,11 +59,12 @@ public class BrokenLinkAmazon
 				} 
 				catch (Exception e) 
 				{
-				
+				  System.out.println(e);
 				}
 					
 			}
 		}
-		System.out.println("The Broken link Count is: "+brokenCount);
+		System.out.println("The Broken link Count is: "+brokenCount);//it is 21
+		driver.close();
 	}
 }

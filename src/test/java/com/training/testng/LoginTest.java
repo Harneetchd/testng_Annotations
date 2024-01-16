@@ -24,6 +24,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		Thread.sleep(1000);
 		driver.findElement(By.id("email_field")).sendKeys("admin123@gmail.com"); 
 		//driver.manage().timeouts().implicitlyWait(10,TimeUnit.MILLISECONDS);
+		driver.manage().window().maximize();
 	}
 	@Test
 	public void login1() throws InterruptedException

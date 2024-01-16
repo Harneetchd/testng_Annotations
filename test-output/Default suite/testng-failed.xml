@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.testng.AmazoniPhone">
+      <class name="com.seleniumgrid.ChromeTest">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="tearDown"/>
-          <include name="logIn"/>
+          <include name="homePageCheck"/>
         </methods>
-      </class> <!-- com.training.testng.AmazoniPhone -->
+      </class> <!-- com.seleniumgrid.ChromeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
