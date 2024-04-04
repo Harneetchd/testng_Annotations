@@ -14,7 +14,8 @@ public class ChromeExtensions
 	{
 		WebDriver driver;
 		 
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome", "/Users/harneetkaur/eclipse-workspace/TestNGAnnotations/mydrivers");
 		
 		ChromeOptions options = new ChromeOptions();
 		
@@ -25,7 +26,7 @@ public class ChromeExtensions
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		
-		//driver.quit();
+		driver.quit();
 	}
 
 }

@@ -43,19 +43,20 @@ public class BrokenLinkAmazon
 			
 				try 
 				{
+
 					HttpURLConnection huc = (HttpURLConnection) links.openConnection();
 					huc.connect();
-					
-					if(huc.getResponseCode()>=400)
+
+					if (huc.getResponseCode() >= 400)
 					{
-						System.out.println(huc.getResponseCode()+url+" is "+" BrokenLink");
+						System.out.println(huc.getResponseCode() + url + " is " + " BrokenLink");
 						brokenCount++;
-					}
-					else
+					} 
+					else 
 					{
-						System.out.println(huc.getResponseCode()+url+" is "+" ValidLink");
+						System.out.println(huc.getResponseCode() + url + " is " + " ValidLink");
 					}
-					
+		
 				} 
 				catch (Exception e) 
 				{
@@ -64,7 +65,7 @@ public class BrokenLinkAmazon
 					
 			}
 		}
-		System.out.println("The Broken link Count is: "+brokenCount);//it is 21
+		System.out.println("The Broken link Count is: "+brokenCount);//it is 22
 		driver.close();
 	}
 }

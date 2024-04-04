@@ -38,6 +38,7 @@ public class AmazoniPhone
 		 */
 		driver = new ChromeDriver();
 		driver.get("https://www.amazon.com/");
+		
 		driver.manage().window().maximize();
 	}
 	

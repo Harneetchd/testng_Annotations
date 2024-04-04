@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.seleniumgrid.ChromeTest">
+      <class name="com.training.testng.DisappearingElement">
         <methods>
-          <include name="homePageCheck"/>
+          <include name="enterMultipleColors"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.seleniumgrid.ChromeTest -->
+      </class> <!-- com.training.testng.DisappearingElement -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
