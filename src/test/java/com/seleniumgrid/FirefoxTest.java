@@ -1,6 +1,9 @@
 package com.seleniumgrid;
 
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
@@ -19,8 +22,9 @@ public class FirefoxTest
 	protected WebDriver driver;
 
 	@Test
-	public void homePageCheck() throws MalformedURLException
+	public void homePageCheck() throws MalformedURLException, InterruptedException
 	{
+		WebDriverManager.firefoxdriver().setup();
 		 DesiredCapabilities caps = new DesiredCapabilities();
 		 //caps.setCapability(CapabilityType.PLATFORM_NAME, "mac");
 		 caps.setCapability(CapabilityType.BROWSER_NAME, "firefox");
@@ -30,11 +34,14 @@ public class FirefoxTest
 		 //caps.setCapability(CapabilityType.BROWSER_VERSION, false);
 		 
 		 
-		 driver = new RemoteWebDriver(new URL("http://192.168.0.244:4444"),caps);
+		 //driver = new RemoteWebDriver(new URL("http://192.168.0.242:4444"),caps);
+		 driver = new RemoteWebDriver(new URL("http://3.129.12.125:4444/wd/hub"),caps);
+		 
 		 
 		 driver.get("https://www.google.com/");
 		 
 		 driver.findElement(By.name("q")).sendKeys("Maven");
+		 Thread.sleep(5000);
 		 driver.close();
 		
 	}	

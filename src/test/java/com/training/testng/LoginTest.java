@@ -18,11 +18,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 	@BeforeMethod
 	public void beforemethod() throws InterruptedException
 	{
-		WebDriverManager.chromedriver().setup();
+		 System.setProperty("webdriver.chrome.driver","/Users/harneetkaur/eclipse-workspace/TestNGFramework/mydriver/chromedriver");
+		//WebDriverManager.chromedriver().setup();
 	    driver = new ChromeDriver();
 		driver.get("https://selenium-prd.firebaseapp.com/");
 		Thread.sleep(1000);
-		driver.findElement(By.id("email_field")).sendKeys("admin123@gmail.com"); 
+		//driver.findElement(By.id("email_field")).sendKeys("admin123@gmail.com"); 
 		//driver.manage().timeouts().implicitlyWait(10,TimeUnit.MILLISECONDS);
 		driver.manage().window().maximize();
 	}

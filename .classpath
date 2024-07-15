@@ -35,6 +35,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/harneetkaur/SeleniumGrid/selenium-server-4.12.1.jar"/>
+	<classpathentry kind="lib" path="/Users/harneetkaur/SeleniumGrid/selenium-server-4.22.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

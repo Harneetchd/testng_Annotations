@@ -65,7 +65,7 @@ public class BrokenLinkAmazon
 					
 			}
 		}
-		System.out.println("The Broken link Count is: "+brokenCount);//it is 22
+		System.out.println("The Broken link Count is: "+brokenCount);//it is 23
 		driver.close();
 	}
 }
