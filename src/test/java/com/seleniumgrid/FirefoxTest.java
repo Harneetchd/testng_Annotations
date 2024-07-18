@@ -35,7 +35,7 @@ public class FirefoxTest
 		 
 		 
 		 //driver = new RemoteWebDriver(new URL("http://192.168.0.242:4444"),caps);
-		 driver = new RemoteWebDriver(new URL("http://18.217.85.90:4445/wd/hub"),caps);
+		 driver = new RemoteWebDriver(new URL("http://13.59.187.137:4445/wd/hub"),caps);
 		 
 		 
 		 driver.get("https://www.google.com/");

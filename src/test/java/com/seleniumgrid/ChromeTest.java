@@ -37,7 +37,7 @@ public class ChromeTest
 	
 		 
 		 //driver = new RemoteWebDriver(new URL("http://192.168.0.242:4444"),caps);
-		 driver = new RemoteWebDriver(new URL("http://18.117.174.235:4444/"),caps);
+		 driver = new RemoteWebDriver(new URL("http://13.59.187.137:4445/"),caps);
 		 
 		 driver.get("https://www.google.com/");
 		 
