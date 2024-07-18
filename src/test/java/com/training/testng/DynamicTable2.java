@@ -28,7 +28,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import freemarker.template.SimpleDate;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 

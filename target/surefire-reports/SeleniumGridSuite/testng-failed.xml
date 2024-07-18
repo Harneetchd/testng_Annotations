@@ -8,11 +8,6 @@
           <include name="homePageCheck"/>
         </methods>
       </class> <!-- com.seleniumgrid.ChromeTest -->
-      <class name="com.seleniumgrid.FirefoxTest">
-        <methods>
-          <include name="homePageCheck"/>
-        </methods>
-      </class> <!-- com.seleniumgrid.FirefoxTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [SeleniumGridSuite] -->

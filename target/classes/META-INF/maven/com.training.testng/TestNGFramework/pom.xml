@@ -25,11 +25,11 @@
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-<!--dependency>
+<dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
     <version>5.9.1</version>
-</dependency-->
+</dependency>
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
@@ -60,12 +60,9 @@
 </dependency>
 
 
-
-  	<dependency>
-  		<groupId>com.training.framework</groupId>
-  		<artifactId>TestNGFramework</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+	
+  
+  	
   </dependencies>
   
   <build>
