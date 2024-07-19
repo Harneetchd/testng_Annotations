@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-18T22:12:39 EDT" name="SeleniumGridSuite" finished-at="2024-07-18T22:12:53 EDT" duration-ms="13513">
+  <suite started-at="2024-07-18T22:18:55 EDT" name="SeleniumGridSuite" finished-at="2024-07-18T22:19:07 EDT" duration-ms="12286">
     <groups>
     </groups>
-    <test started-at="2024-07-18T22:12:39 EDT" name="Test" finished-at="2024-07-18T22:12:53 EDT" duration-ms="13513">
+    <test started-at="2024-07-18T22:18:55 EDT" name="Test" finished-at="2024-07-18T22:19:07 EDT" duration-ms="12286">
       <class name="com.seleniumgrid.FirefoxTest">
-        <test-method signature="homePageCheck()[pri:0, instance:com.seleniumgrid.FirefoxTest@66498326]" started-at="2024-07-18T22:12:39 EDT" name="homePageCheck" finished-at="2024-07-18T22:12:51 EDT" duration-ms="11968" status="PASS">
+        <test-method signature="homePageCheck()[pri:0, instance:com.seleniumgrid.FirefoxTest@66498326]" started-at="2024-07-18T22:18:55 EDT" name="homePageCheck" finished-at="2024-07-18T22:19:07 EDT" duration-ms="12254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageCheck -->
       </class> <!-- com.seleniumgrid.FirefoxTest -->
       <class name="com.seleniumgrid.ChromeTest">
-        <test-method signature="homePageCheck()[pri:0, instance:com.seleniumgrid.ChromeTest@c333c60]" started-at="2024-07-18T22:12:39 EDT" name="homePageCheck" finished-at="2024-07-18T22:12:53 EDT" duration-ms="13476" status="PASS">
+        <test-method signature="homePageCheck()[pri:0, instance:com.seleniumgrid.ChromeTest@c333c60]" started-at="2024-07-18T22:18:55 EDT" name="homePageCheck" finished-at="2024-07-18T22:19:04 EDT" duration-ms="9842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageCheck -->
